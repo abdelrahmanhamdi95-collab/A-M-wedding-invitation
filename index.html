@@ -27,7 +27,7 @@
     padding:0;
     background: var(--cream);
     color: var(--brown);
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: 'Cormorant Garamond','Amiri', Georgia, serif;
     overflow-x: hidden;
     width: 100%;
   }
@@ -126,7 +126,7 @@
   }
 
   .tap-open-text{
-    font-family:'Cinzel', serif;
+    font-family:'Cinzel','Amiri', serif;
     font-size:11px;
     letter-spacing:.26em;
     color: rgba(140,100,60,.75);
@@ -199,7 +199,7 @@
   #hero{ padding-top:90px; }
 
   .eyebrow{
-    font-family:'Cinzel', serif;
+    font-family:'Cinzel','Amiri', serif;
     color: var(--gold);
     font-size:26px;
     letter-spacing:.08em;
@@ -207,7 +207,7 @@
   }
 
   .wedding-date{
-    font-family:'Cinzel', serif;
+    font-family:'Cinzel','Amiri', serif;
     font-weight:600;
     font-size:20px;
     color: var(--gold);
@@ -216,7 +216,7 @@
   }
 
   .couple-names{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     font-style: italic;
     font-weight:500;
     color: var(--gold);
@@ -234,7 +234,7 @@
   }
 
   .scroll-label{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     color: var(--gold);
     font-size:26px;
     margin: 40px 0 10px;
@@ -288,7 +288,7 @@
   }
 
   .verses{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     font-style: italic;
     font-weight:500;
     color: var(--gold);
@@ -319,7 +319,7 @@
      8) COUNTDOWN SECTION (section 11)
   ============================================================ */
   .section-title{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     color: var(--gold);
     font-size:41px;
     margin: 0 0 40px;
@@ -358,7 +358,7 @@
   }
 
   .cd-num, .cd-sep{
-    font-family:'Ovo', serif;
+    font-family:'Ovo','Amiri', serif;
     font-size:46px;
     background: linear-gradient(105deg,#B48C3D 0%,#B48C3D 25%,#cda95a 46%,#d8ba72 52%,#cda95a 58%,#B48C3D 75%,#B48C3D 100%);
     background-size:300% 100%;
@@ -378,7 +378,7 @@
   }
 
   .cd-label{
-    font-family:'Ovo', serif;
+    font-family:'Ovo','Amiri', serif;
     font-size:19px;
     opacity:.85;
     color: var(--brown);
@@ -386,7 +386,7 @@
   }
 
   #countdownDone{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     font-style: italic;
     color: var(--gold);
     font-size:34px;
@@ -461,7 +461,7 @@
   .wax-seal:hover{ transform: scale(1.06) rotate(-3deg); }
 
   .click-to-open{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     font-style: italic;
     color: var(--gold);
     font-size:24px;
@@ -502,18 +502,18 @@
     font-size:22px;
     color: var(--brown);
     cursor:pointer;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond','Amiri', serif;
   }
 
   .modal-title{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     color: var(--gold);
     font-size:30px;
     margin: 0 0 8px;
   }
 
   .modal-sub{
-    font-family:'Cinzel', serif;
+    font-family:'Cinzel','Amiri', serif;
     font-size:12px;
     letter-spacing:.08em;
     color: var(--brown-soft);
@@ -527,7 +527,7 @@
 
   .form-group label{
     display:block;
-    font-family:'Cinzel', serif;
+    font-family:'Cinzel','Amiri', serif;
     font-size:12px;
     letter-spacing:.05em;
     color: var(--brown);
@@ -540,7 +540,7 @@
     padding:10px 12px;
     border: 1px solid rgba(166,125,43,.5);
     background: #fff;
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     font-size:17px;
     color: var(--brown);
   }
@@ -554,7 +554,7 @@
     display:flex;
     align-items:center;
     gap:8px;
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     font-size:17px;
     letter-spacing:normal;
     text-transform:none;
@@ -582,7 +582,7 @@
     background: var(--wine);
     color:#fff;
     border:none;
-    font-family:'Cinzel', serif;
+    font-family:'Cinzel','Amiri', serif;
     font-size:14px;
     letter-spacing:.1em;
     cursor:pointer;
@@ -598,7 +598,7 @@
     margin-bottom:18px;
   }
   #thankYouMsg p{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Cormorant Garamond','Amiri', serif;
     font-style: italic;
     font-size:26px;
     color: var(--gold);
@@ -621,9 +621,76 @@
     color: var(--brown-soft);
     font-size:18px;
   }
+
+  /* ============================================================
+     RTL OVERRIDES (applied when Arabic is selected)
+  ============================================================ */
+  body.lang-ar .form-group{ text-align:right; }
+  body.lang-ar .modal-close{ left:16px; right:auto; }
+
+  /* ============================================================
+     LANGUAGE CHOOSER
+  ============================================================ */
+  #langChooser{
+    position: fixed;
+    inset: 0;
+    background: var(--cream);
+    z-index: 300000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 24px;
+    transition: opacity .8s ease;
+  }
+  #langChooser.fade-out{ opacity:0; pointer-events:none; }
+  .lang-chooser-inner{
+    text-align:center;
+    max-width:360px;
+  }
+  .lang-chooser-title{
+    font-family:'Cormorant Garamond','Amiri', serif;
+    font-style: italic;
+    color: var(--gold);
+    font-size:24px;
+    line-height:1.6;
+    margin: 0 0 34px;
+  }
+  .lang-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+  }
+  .lang-btn{
+    font-family:'Cinzel','Amiri', serif;
+    font-size:16px;
+    letter-spacing:.08em;
+    background: transparent;
+    color: var(--wine);
+    border: 1px solid var(--gold);
+    padding: 14px 20px;
+    cursor:pointer;
+    transition: background .3s ease, color .3s ease;
+  }
+  .lang-btn:hover{
+    background: var(--wine);
+    color:#fff;
+  }
 </style>
 </head>
 <body>
+
+<!-- ============================================================
+     LANGUAGE CHOOSER
+============================================================ -->
+<div id="langChooser">
+  <div class="lang-chooser-inner">
+    <div class="lang-chooser-title">Please select your language<br>برجاء اختيار اللغة</div>
+    <div class="lang-buttons">
+      <button class="lang-btn" data-lang="ar">العربية</button>
+      <button class="lang-btn" data-lang="en">English</button>
+    </div>
+  </div>
+</div>
 
 <!-- ============================================================
      BACKGROUND AUDIO
@@ -637,10 +704,10 @@
 ============================================================ -->
 <div id="envelopeOverlay">
   <div class="envelope-inner">
-    <img src="https://pub-96ce671efbac4dbfbc89b044c631a913.r2.dev/ChatGPT Image Jun 23%2C 2026%2C 04_40_29 PM.png" alt="Wedding envelope">
+    <img src="https://pub-96ce671efbac4dbfbc89b044c631a913.r2.dev/ChatGPT Image Jun 23%2C 2026%2C 04_40_29 PM.png" alt="Wedding envelope" data-i18n-alt="envelopeAlt">
     <div class="tap-open-block" id="tapOpenBlock">
       <div class="tap-chevron"></div>
-      <div class="tap-open-text">Tap to open</div>
+      <div class="tap-open-text" data-i18n="tapOpen">Tap to open</div>
     </div>
   </div>
 </div>
@@ -657,7 +724,7 @@
 <!-- ============================================================
      FLOATING AUDIO BUTTON
 ============================================================ -->
-<button id="audioBtn" aria-label="Toggle music">
+<button id="audioBtn" aria-label="Toggle music" data-i18n-aria="audioAria">
   <svg id="iconPause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
   <svg id="iconPlay" viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"/></svg>
 </button>
@@ -667,15 +734,15 @@
 ============================================================ -->
 <section id="hero">
   <div class="wrap">
-    <div class="eyebrow reveal">Engagement Invitation</div>
+    <div class="eyebrow reveal" data-i18n="eyebrow">Engagement Invitation</div>
     <div class="wedding-date reveal">07.08.26</div>
-    <h1 class="couple-names reveal">Abdel-Rahman<span class="amp">&amp;</span>MennaAllah</h1>
-    <div class="scroll-label reveal">Scroll down</div>
+    <h1 class="couple-names reveal" data-i18n-html="coupleNames">Abdel-Rahman<span class="amp">&amp;</span>MennaAllah</h1>
+    <div class="scroll-label reveal" data-i18n="scrollLabel">Scroll down</div>
     <svg class="scroll-chevron" viewBox="0 0 25 15.86"><path fill="none" stroke="#937100" stroke-width="1" stroke-linecap="round" d="M1.0092 1.008C4.3691 5.4431 9.1402 9.565 12.5 14C16.8007 9.565 19.6901 5.4431 23.9908 1.008"/></svg>
     <video class="swans-video reveal" autoplay muted loop playsinline>
       <source src="https://pub-4dc8201144ca418fb604349c73e8c724.r2.dev/Swans2.mov" type="video/mp4">
     </video>
-    <img class="couple-illustration reveal" id="coupleIllustration" src="https://i.postimg.cc/DZY96xhw/Whats-App-Image-2026-07-18-at-1-38-58-PM-(1).jpg" alt="Bride and groom illustration">
+    <img class="couple-illustration reveal" id="coupleIllustration" src="https://i.postimg.cc/DZY96xhw/Whats-App-Image-2026-07-18-at-1-38-58-PM-(1).jpg" alt="Bride and groom illustration" data-i18n-alt="illustrationAlt">
   </div>
 </section>
 
@@ -685,8 +752,8 @@
 <section id="verses">
   <div class="wrap">
     <div class="bismillah reveal">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
-    <div class="verses reveal">Two Souls<br>One destiny<br>A Lifetime written by Allah</div>
-    <p class="welcome-text reveal">Dear Friends and Family<br>Join us for an evening of love, laughter, duas, and unforgettable memories as we begin our forever.</p>
+    <div class="verses reveal" data-i18n-html="verses">Two Souls<br>One destiny<br>A Lifetime written by Allah</div>
+    <p class="welcome-text reveal" data-i18n-html="welcomeText">Dear Friends and Family<br>Join us for an evening of love, laughter, duas, and unforgettable memories as we begin our forever.</p>
   </div>
 </section>
 
@@ -696,30 +763,30 @@
 <section id="countdown">
   <div class="wrap">
     <img class="flourish-img reveal" src="https://static.tildacdn.net/tild6638-3365-4663-b834-363436333136/noroot.png" alt="">
-    <h2 class="section-title reveal">The Celebration Begins In</h2>
+    <h2 class="section-title reveal" data-i18n="celebrationTitle">The Celebration Begins In</h2>
 
     <div id="countdownActive" class="countdown-row reveal">
       <div class="cd-block">
         <div class="cd-num-wrap"><span class="cd-num" id="cd-days">00</span></div>
-        <div class="cd-label">Days</div>
+        <div class="cd-label" data-i18n="days">Days</div>
       </div>
       <div class="cd-num-wrap"><span class="cd-sep">:</span></div>
       <div class="cd-block">
         <div class="cd-num-wrap"><span class="cd-num" id="cd-hours">00</span></div>
-        <div class="cd-label">Hours</div>
+        <div class="cd-label" data-i18n="hours">Hours</div>
       </div>
       <div class="cd-num-wrap"><span class="cd-sep">:</span></div>
       <div class="cd-block">
         <div class="cd-num-wrap"><span class="cd-num" id="cd-minutes">00</span></div>
-        <div class="cd-label">Minutes</div>
+        <div class="cd-label" data-i18n="minutes">Minutes</div>
       </div>
       <div class="cd-num-wrap"><span class="cd-sep">:</span></div>
       <div class="cd-block">
         <div class="cd-num-wrap"><span class="cd-num" id="cd-seconds">00</span></div>
-        <div class="cd-label">Seconds</div>
+        <div class="cd-label" data-i18n="seconds">Seconds</div>
       </div>
     </div>
-    <div id="countdownDone" style="display:none;">See you there!</div>
+    <div id="countdownDone" style="display:none;" data-i18n="countdownDone">See you there!</div>
 
     <img class="flourish-img reveal" style="margin-top:30px;" src="https://static.tildacdn.net/tild3633-3739-4961-b135-306530633566/noroot.png" alt="">
   </div>
@@ -733,8 +800,8 @@
 ============================================================ -->
 <section id="location">
   <div class="wrap">
-    <h2 class="section-title reveal">Location</h2>
-    <p class="venue-text reveal">"Basata Land" Hall" — Dondit City - Mit ghamr</p>
+    <h2 class="section-title reveal" data-i18n="locationTitle">Location</h2>
+    <p class="venue-text reveal" data-i18n="venueText">"Basata Land" Hall" — Dondit City - Mit ghamr</p>
 
     <div class="map-frame-wrap reveal">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.0778833026816!2d31.321613900000003!3d30.688084699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7eb1ba547fce9%3A0x383a199ea0f5927b!2z2KjYs9in2LfYqSDZhNin2YbYrw!5e0!3m2!1sen!2seg!4v1784290421365!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -754,11 +821,11 @@
 ============================================================ -->
 <section id="rsvp">
   <div class="wrap">
-    <h2 class="section-title reveal">Confirm Your Attendance</h2>
-    <p class="rsvp-intro reveal">To help us prepare for a joyful celebration, kindly confirm your attendance.</p>
+    <h2 class="section-title reveal" data-i18n="rsvpTitle">Confirm Your Attendance</h2>
+    <p class="rsvp-intro reveal" data-i18n="rsvpIntro">To help us prepare for a joyful celebration, kindly confirm your attendance.</p>
 
-    <img class="wax-seal reveal" id="waxSealBtn" src="https://static.tildacdn.net/tild6638-6565-4665-a361-653962303137/wax_seal_1.png" alt="Open RSVP form">
-    <div class="click-to-open reveal">Click to open</div>
+    <img class="wax-seal reveal" id="waxSealBtn" src="https://static.tildacdn.net/tild6638-6565-4665-a361-653962303137/wax_seal_1.png" alt="Open RSVP form" data-i18n-alt="waxSealAlt">
+    <div class="click-to-open reveal" data-i18n="clickToOpen">Click to open</div>
 
     <div class="accent-row reveal">
       <img src="https://static.tildacdn.net/tild3232-3638-4338-a134-336230313236/acomm-decor.png" alt="">
@@ -776,54 +843,54 @@
 <!-- RSVP Modal -->
 <div id="rsvpModal">
   <div class="modal-box">
-    <button class="modal-close" id="modalCloseBtn" aria-label="Close">&times;</button>
+    <button class="modal-close" id="modalCloseBtn" aria-label="Close" data-i18n-aria="closeAria">&times;</button>
 
     <div id="rsvpFormWrap">
-      <h3 class="modal-title">Confirm Your Attendance</h3>
-      <p class="modal-sub">Please RSVP before August 09</p>
+      <h3 class="modal-title" data-i18n="rsvpTitle">Confirm Your Attendance</h3>
+      <p class="modal-sub" data-i18n="modalSub">Please RSVP before August 09</p>
 
       <form id="rsvpForm">
         <div class="form-group">
-          <label for="guestName">Your name</label>
+          <label for="guestName" data-i18n="labelName">Your name</label>
           <input type="text" id="guestName" required>
         </div>
 
         <div class="form-group">
-          <label>Will you be attending?</label>
+          <label data-i18n="labelAttend">Will you be attending?</label>
           <div class="radio-options">
-            <label><input type="radio" name="attending" value="accepts" required> Accepts with pleasure</label>
-            <label><input type="radio" name="attending" value="declines"> Declines with regret</label>
+            <label><input type="radio" name="attending" value="accepts" required> <span data-i18n="radioAccept">Accepts with pleasure</span></label>
+            <label><input type="radio" name="attending" value="declines"> <span data-i18n="radioDecline">Declines with regret</span></label>
           </div>
         </div>
 
         <div class="form-group">
-          <label for="guestCount">Number of Guests Attending</label>
+          <label for="guestCount" data-i18n="labelGuestCount">Number of Guests Attending</label>
           <input type="number" id="guestCount" min="1" value="1">
         </div>
 
         <div class="form-group">
-          <label for="danceSong">A Song That Gets You Dancing</label>
+          <label for="danceSong" data-i18n="labelSong">A Song That Gets You Dancing</label>
           <input type="text" id="danceSong">
         </div>
 
         <div class="form-group">
           <div class="toggle-row">
             <input type="checkbox" id="childrenToggle">
-            <label for="childrenToggle">Children Attending</label>
+            <label for="childrenToggle" data-i18n="labelChildren">Children Attending</label>
           </div>
-          <div class="helper-text">Please include names and ages.</div>
+          <div class="helper-text" data-i18n="helperText">Please include names and ages.</div>
           <div id="childrenNamesWrap">
-            <input type="text" id="childrenNames" placeholder="Names and ages">
+            <input type="text" id="childrenNames" placeholder="Names and ages" data-i18n-placeholder="placeholderNames">
           </div>
         </div>
 
-        <button type="submit" class="submit-btn">Submit</button>
+        <button type="submit" class="submit-btn" data-i18n="submitBtn">Submit</button>
       </form>
     </div>
 
     <div id="thankYouMsg">
       <img src="https://static.tildacdn.net/tild6235-3237-4230-b632-326437376662/pexels-vinicius-quar.jpg" alt="">
-      <p>Hope to see you there!</p>
+      <p data-i18n="thankYouText">Hope to see you there!</p>
     </div>
   </div>
 </div>
@@ -834,11 +901,135 @@
 <footer>
   <div class="wrap">
     <img class="footer-ornament" src="https://static.tildacdn.net/tild3732-6364-4131-b837-353363666335/623915249_2629494717.png" alt="">
-    <div class="footer-text">Abdel-Rahman and MennaAllah</div>
+    <div class="footer-text" data-i18n="footerText">Abdel-Rahman and MennaAllah</div>
   </div>
 </footer>
 
 <script>
+/* ============================================================
+   JS BLOCK 0 — LANGUAGE CHOOSER & TRANSLATIONS
+============================================================ */
+(function languageSwitcher(){
+  const translations = {
+    en: {
+      pageTitle: "The Sacred Garden",
+      envelopeAlt: "Wedding envelope",
+      tapOpen: "Tap to open",
+      audioAria: "Toggle music",
+      eyebrow: "Engagement Invitation",
+      coupleNames: 'Abdel-Rahman<span class="amp">&amp;</span>MennaAllah',
+      scrollLabel: "Scroll down",
+      illustrationAlt: "Bride and groom illustration",
+      verses: "Two Souls<br>One destiny<br>A Lifetime written by Allah",
+      welcomeText: "Dear Friends and Family<br>Join us for an evening of love, laughter, duas, and unforgettable memories as we begin our forever.",
+      celebrationTitle: "The Celebration Begins In",
+      days: "Days", hours: "Hours", minutes: "Minutes", seconds: "Seconds",
+      countdownDone: "See you there!",
+      locationTitle: "Location",
+      venueText: '"Basata Land" Hall" — Dondit City - Mit ghamr',
+      rsvpTitle: "Confirm Your Attendance",
+      rsvpIntro: "To help us prepare for a joyful celebration, kindly confirm your attendance.",
+      waxSealAlt: "Open RSVP form",
+      clickToOpen: "Click to open",
+      closeAria: "Close",
+      modalSub: "Please RSVP before August 09",
+      labelName: "Your name",
+      labelAttend: "Will you be attending?",
+      radioAccept: "Accepts with pleasure",
+      radioDecline: "Declines with regret",
+      labelGuestCount: "Number of Guests Attending",
+      labelSong: "A Song That Gets You Dancing",
+      labelChildren: "Children Attending",
+      helperText: "Please include names and ages.",
+      placeholderNames: "Names and ages",
+      submitBtn: "Submit",
+      submitting: "Submitting...",
+      thankYouText: "Hope to see you there!",
+      footerText: "Abdel-Rahman and MennaAllah"
+    },
+    ar: {
+      pageTitle: "الحديقة المقدسة",
+      envelopeAlt: "مغلف الدعوة",
+      tapOpen: "اضغط للفتح",
+      audioAria: "تشغيل أو إيقاف الموسيقى",
+      eyebrow: "دعوة خطوبة",
+      coupleNames: 'عبدالرحمن<span class="amp">و</span>منة الله',
+      scrollLabel: "مرر للأسفل",
+      illustrationAlt: "رسم توضيحي للعروسين",
+      verses: "روحان<br>قدر واحد<br>عمر كتبه الله",
+      welcomeText: "أعزاءنا الأهل والأصدقاء<br>انضموا إلينا في أمسية مليئة بالحب والضحك والدعاء والذكريات التي لا تُنسى، ونحن نبدأ حياتنا معًا.",
+      celebrationTitle: "الاحتفال يبدأ خلال",
+      days: "أيام", hours: "ساعات", minutes: "دقائق", seconds: "ثواني",
+      countdownDone: "نراكم هناك!",
+      locationTitle: "الموقع",
+      venueText: 'قاعة "بساطة لاند" — مدينة دونديط - ميت غمر',
+      rsvpTitle: "تأكيد الحضور",
+      rsvpIntro: "لمساعدتنا على التحضير لاحتفال بهيج، برجاء تأكيد حضوركم.",
+      waxSealAlt: "فتح نموذج تأكيد الحضور",
+      clickToOpen: "اضغط للفتح",
+      closeAria: "إغلاق",
+      modalSub: "يرجى تأكيد الحضور قبل 9 أغسطس",
+      labelName: "اسمك",
+      labelAttend: "هل ستحضر؟",
+      radioAccept: "يوافق بكل سرور",
+      radioDecline: "يعتذر بكل أسف",
+      labelGuestCount: "عدد الضيوف الحاضرين",
+      labelSong: "أغنية تجعلك ترقص",
+      labelChildren: "أطفال حاضرون",
+      helperText: "يرجى ذكر الأسماء والأعمار.",
+      placeholderNames: "الأسماء والأعمار",
+      submitBtn: "إرسال",
+      submitting: "جارٍ الإرسال...",
+      thankYouText: "نتمنى رؤيتكم هناك!",
+      footerText: "عبدالرحمن ومنة الله"
+    }
+  };
+
+  window.siteTranslations = translations;
+
+  function applyLanguage(lang){
+    const t = translations[lang];
+    if (!t) return;
+
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      el.textContent = t[el.getAttribute('data-i18n')];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el){
+      el.innerHTML = t[el.getAttribute('data-i18n-html')];
+    });
+    document.querySelectorAll('[data-i18n-alt]').forEach(function(el){
+      el.setAttribute('alt', t[el.getAttribute('data-i18n-alt')]);
+    });
+    document.querySelectorAll('[data-i18n-aria]').forEach(function(el){
+      el.setAttribute('aria-label', t[el.getAttribute('data-i18n-aria')]);
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el){
+      el.setAttribute('placeholder', t[el.getAttribute('data-i18n-placeholder')]);
+    });
+
+    document.title = t.pageTitle;
+    document.documentElement.lang = lang;
+    document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
+    document.body.classList.toggle('lang-ar', lang === 'ar');
+    window.currentLang = lang;
+  }
+
+  const chooser = document.getElementById('langChooser');
+  const buttons = chooser.querySelectorAll('.lang-btn');
+
+  buttons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      const lang = btn.getAttribute('data-lang');
+      applyLanguage(lang);
+      chooser.classList.add('fade-out');
+      setTimeout(function(){ chooser.style.display = 'none'; }, 800);
+    });
+  });
+
+  // default to English until a choice is made, so labels aren't empty
+  applyLanguage('en');
+})();
+
 /* ============================================================
    JS BLOCK 1 — INTRO SEQUENCE (envelope -> video -> reveal)
 ============================================================ */
@@ -1034,7 +1225,7 @@
     };
 
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Submitting...';
+    submitBtn.textContent = (window.siteTranslations[window.currentLang] || window.siteTranslations.en).submitting;
 
     // Sends the RSVP data to the connected Google Sheet.
     // mode: 'no-cors' is required by Apps Script web apps and means we
@@ -1058,7 +1249,7 @@
     })
     .finally(function(){
       submitBtn.disabled = false;
-      submitBtn.textContent = 'Submit';
+      submitBtn.textContent = (window.siteTranslations[window.currentLang] || window.siteTranslations.en).submitBtn;
     });
   });
 })();
